@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>SuperSpartyBros</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+        var unityInstance = UnityLoader.instantiate("unityContainer", "Build/WebGL2.json", {onProgress: UnityProgress});
+    </script>	
+  </head>
+  <body>
+      <div style="text-align: center;">
+        <h1><strong>SPARTY BROS</strong></h1>
+      </div>
+
+    <div id="main-content" class="container heading" style="text-align: center; padding: 10px;">
+      <div>
+      <div id="unityContainer" style="width: 100%; height: 100%"></div>
+        <div class="footer">
+          <div class="webgl-logo"></div>
+          <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        </div>
+      </div>
+    </div>
+
+  	<div class="row" style="background-color: black; color: white; padding: 10px;">
+      <div class="col-md-3">
+        <img src="images/Capture.PNG" style="height:200px; padding-left: 100px; padding-right: 100px;"/>
+      </div>
+      <div class="col-md-9">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        Super Sparty Bros is a game requirement by the course Game Development for Modern Platforms
+        authorized by Michigan State University at Coursera. Sparty is wearing an armor that most knights wear during a battle.
+        Help Sparty get away from Enemies, stun them, collect coins, and get the ROSE to win the game!
+      </div>
+    </div>
+
+    <div class="row" style="text-align: center; background-color: white; height: 250px;">
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+      <h2><strong>WHAT'S NEW?</strong></h2>
+    </div>
+
+<div style="color: white; background-color: black; padding: 20px;">
+    <div class= "row">
+      <div class="col-md-4" style="text-align: center;">
+        <img src="images/Screenshots/level1.PNG" style="height:200px; width: 300px;"/>
+        <br>
+        <br>
+        <p>Added new background assets so player can enjoy the full experience of playing</p>
+      </div>
+      <div class="col-md-4" style="text-align: center;">
+        <img src="images/kevinmacleod.PNG" style="height:200px; width: 200px;"/>
+        <br>
+        <br>
+        <p>Changed background music to add thrill and suspense (Credits to Kevin MacLeod for the free</p>
+      </div>
+      <div class="col-md-4" style="text-align: center;">
+        <img src="images/heart.png" style="height:200px; width: 200px;"/>
+        <br>
+        <br>
+        <p>Changed life indicator to hearts</p>
+      </div>
+    </div>
+    
+    <div class= "row">
+      <div class="col-md-4" style="text-align: center;">
+        <img src="images/Screenshots/main menu.png" style="height:200px; width: 300px;"/>
+        <br>
+        <br>
+        <p>Added a background for the loading and main menu screens</p>
+      </div>
+      <div class="col-md-4" style="text-align: center;">
+        <img src="images/Screenshots/level2.PNG" style="height:200px; width: 300px;"/>
+        <br>
+        <br>
+        <p>Added another game level</p>
+      </div>
+      <div class="col-md-4" style="text-align: center;">
+        <img src="images/spikes.PNG" alt="Lava and Spikes Deathzone" style="height:200px; width: 300px;"/>
+        <br>
+        <br>
+        <p>Added obstacles and a lava deathzone</p>
+      </div>
+    </div>
+</div>  
+
+<div class="row" style="background-color: white; padding: 20px;">
+    <h4 style="text-align: center;">Playable through different platforms!</h4>
+    <br/>
+    <br/>
+    <br/>
+    <div class="col-md-4" style="text-align: center;">
+        <img src="images/android.png" style="height:100px; width: 100px;"/>
+        <h4>Android</h4>
+    </div>
+    <div class="col-md-4" style="text-align: center;">
+        <img src="images/windows.png" style="height:100px; width: 100px;"/>
+        <h4>Windows</h4>
+    </div>
+    <div class="col-md-4" style="text-align: center;">
+        <img src="images/xbox.png" style="height:100px; width: 100px;"/>
+        <h4>Xbox</h4>
+    </div>
+</div>  
+
+    <footer class="panel-footer" style="background-color:black; color: white;">
+      <div class="container">
+        <div class="row">
+          <section id="hours" class="col-sm-3">
+            <span><h4>About this Site</h4></span><br>
+            This site is a requirement for Game Development for Modern Platforms by Coursera authorized by Michigan State University,
+            <hr class="visible-xs">
+          </section>
+          <section id="testimonials" class="col-sm-3">
+            <span><h4>CREDITS</h4></span><br>
+            Brian Winn<br>
+            Privacy Policy<br>
+            Elizabeth Joy Lik<br>
+            CraftPix<br>
+            Kevin MacLeod
+          </section>
+          <section id="address" class="col-sm-3">
+            <span><h4>CONTACT</h4></span><br>
+            Careers<br>
+            Contact Us
+            <hr class="visible-xs">
+          </section>
+          <section id="testimonials" class="col-sm-3">
+            <span><h4>LEGAL</h4></span><br>
+            Terms of Use<br>
+            Privacy Policy
+          </section>
+          
+        </div>
+        <br><br>
+        <div class="text-center">Note that this site is purely for educational purposes only<br>&copy; Copyright Izumi Studios 2020</div>
+      </div>
+    </footer>
+  
+<!-- 
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script> -->
+  </body>
+</html>
